@@ -44,14 +44,14 @@ public class Validator {
 
     public static void main(String[] args) {
         // Пример проверки номера телефона
-        System.out.println(validatePhoneNumber("1234567")); // true
-        System.out.println(validatePhoneNumber("123-4567")); // true
-        System.out.println(validatePhoneNumber("123 4567")); // true
-        System.out.println(validatePhoneNumber("12345678")); // false
+        System.out.println(validatePhoneNumber("1234567")); 
+        System.out.println(validatePhoneNumber("123-4567")); 
+        System.out.println(validatePhoneNumber("123 4567")); 
+        System.out.println(validatePhoneNumber("12345678")); 
 
         // Пример проверки email
-        System.out.println(validateEmail("test@example.com")); // true
-        System.out.println(validateEmail("invalid-email")); // false
+        System.out.println(validateEmail("test@example.com")); 
+        System.out.println(validateEmail("invalid-email")); 
 
         // Пример проверки логина и пароля
         System.out.println(checkLoginAndPassword("john", "1234a", "1234a"));
